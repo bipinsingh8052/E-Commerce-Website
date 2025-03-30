@@ -1,0 +1,287 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   width: 100%;
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid lightgray;
+    border-top: 5px solid #007bff; /* Change color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.conatiner_login{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://t4.ftcdn.net/jpg/07/64/55/75/360_F_764557526_HlwV6rYpIxrfhrmlpTzl74INFoMmJs9Z.jpg');
+    background-size: cover;
+    background-color: rgb(22, 65, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner_login .form{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    /* background-color: rgba(6, 2, 6, 0.37); */
+    background-color: rgba(115, 5, 5, 0.364);
+    /* border: 2px dotted black; */
+    box-shadow: -2px -1px 5px 8px red;
+    border: none;
+   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.conatiner_login .form h1{
+    font-size: 40px;
+    color: wheat;
+    font-style: italic;
+    padding: 5px;
+
+}
+.conatiner_login .form form{
+    width: 90%;
+    height: 90%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+
+}
+.conatiner_login .form form .name ,.conatiner_login .form form .email ,.conatiner_login .form form .moblie ,.conatiner_login .form form .password ,.conatiner_login .form form .confirmPassword{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+.conatiner_login .form form .name label,.conatiner_login .form form .email label ,.conatiner_login .form form .moblie label,.conatiner_login .form form .password label,.conatiner_login .form form .confirmPassword label{
+    font-size: 20px;
+}
+.conatiner_login .form form .name input ,.conatiner_login .form form .email input,.conatiner_login .form form .moblie input ,.conatiner_login .form form .password input,.conatiner_login .form form .confirmPassword input{
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+.conatiner_login .form form .login_option{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    
+}
+.conatiner_login .form form .login_option .login_checkbox{
+/* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+    font-size: 7px;
+    
+}
+.conatiner_login .form form .login_option .login_checkbox .checkbox input{
+    cursor: pointer;
+}
+.conatiner_login .form form .login_option .forget{
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(218, 210, 210);
+    text-decoration: underline;
+}
+.conatiner_login .form form .login_option .forget:hover{
+    color: #9a9aa1;
+    cursor: pointer;
+}
+
+.conatiner_login .form form .login_option .login_checkbox p{
+    font-size: 13px;
+    /* padding-top: 10px; */
+}
+
+.conatiner_login .form form .button{
+    width: 100%;
+
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conatiner_login .form form .button button{
+    padding: 8px;
+    font-size: 20px;
+    font-style: initial;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    border: 0.2px solid black;
+   
+}
+.conatiner_login .form form .button p{
+    color: black;
+}
+.conatiner_login .form form .button p span{
+    color:blue;
+}
+.conatiner_login .form form .button p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.conatiner_login .form form .button button:hover{
+    cursor: pointer;
+    background: linear-gradient(red,blue);
+    color: white;
+    /* border: none; */
+    border: 0.2px solid transparent;
+}
+ @media screen and (max-width: 420px) {
+    
+    .conatiner_login .form{
+        height: 350px;
+        width: 250px;
+        padding: 10px;
+        /* background-color: rgba(6, 2, 6, 0.37); */
+        
+        /* border: 2px dotted black; */
+        box-shadow: -2px -1px 5px 8px red;
+        border: none;
+       
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    
+    .conatiner_login .form form{
+        width: 90%;
+        height: 90%;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        color: white;
+    
+    }
+    .conatiner_login .form form .name ,.conatiner_login .form form .email ,.conatiner_login .form form .moblie ,.conatiner_login .form form .password ,.conatiner_login .form form .confirmPassword{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .conatiner_login .form form .name label,.conatiner_login .form form .email label ,.conatiner_login .form form .moblie label,.conatiner_login .form form .password label,.conatiner_login .form form .confirmPassword label{
+        font-size: 16px;
+    }
+    .conatiner_login .form form .name input ,.conatiner_login .form form .email input,.conatiner_login .form form .moblie input ,.conatiner_login .form form .password input,.conatiner_login .form form .confirmPassword input{
+        height: 30px;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .conatiner_login .form form .button{
+        width: 100%;
+    
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .conatiner_login .form form .button button{
+        padding: 8px;
+        font-size: 16px;
+        font-style: initial;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        border: 0.2px solid black;
+       
+    }
+    .conatiner_login .form form .button p{
+        font-size: 12px;
+        color: black;
+    }
+    .conatiner_login .form form .button p span{
+        color:blue;
+    }
+    .conatiner_login .form form .button p span:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .conatiner_login .form form .button button:hover{
+        cursor: pointer;
+        background: linear-gradient(red,blue);
+        color: white;
+        /* border: none; */
+        border: 0.2px solid transparent;
+    }
+
+
+
+
+    .conatiner_login .form form .login_option{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        
+    }
+    .conatiner_login .form form .login_option .login_checkbox{
+    /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        text-align: center;
+        font-size: 6px;
+        
+    }
+    .conatiner_login .form form .login_option .forget{
+        padding-top: 10px;
+        font-size: 10px;
+        color: rgb(218, 210, 210);
+        text-decoration: underline;
+    }
+    .conatiner_login .form form .login_option .forget:hover{
+        color: #9a9aa1;
+        cursor: pointer;
+    }
+    
+    .conatiner_login .form form .login_option .login_checkbox p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+} 

@@ -1,6 +1,6 @@
 import { useState } from "react"
-// import '../css/login.css'
-// import { useNavigate } from "react-router-dom";
+import "../css/adminLogin.css"
+import { useNavigate } from "react-router-dom";
 import axios from 'axios'
 // import BaseUrl from "../Confi";
 import toast, { Toaster } from 'react-hot-toast';
@@ -8,7 +8,7 @@ export default function Login() {
   let [loader,setloader]=useState(false)
   let [sign,setsign]=useState({});
 
-//   let nav =useNavigate();
+  let nav =useNavigate();
   function inputvalue(e){
    
     const {name,value}=e.target;
@@ -17,7 +17,7 @@ export default function Login() {
 
 
   const goWithReg=()=>{
-    // nav("/regstration")
+    nav("/adminsign")
   }
 
 
@@ -43,6 +43,7 @@ export default function Login() {
 
 
   const forgetpassword=async()=>{
+    toast.error("This page have working")
     // let api=`${BaseUrl}/Registration`;
     // try {
     //   let response =await axios.post(api,sign)
@@ -59,18 +60,23 @@ export default function Login() {
   return (
     <>
      {
-        (!loader)? "":<div className="conatiner_login">
+        (loader)?
+         <div className="loader-container">
+        <div className="spinner"></div>
+        <p>Loading...</p>
+      </div>
+      :<div className="conatiner_login">
         <div className="form">
-            <h1>Login</h1>
+            <h1>Admin Login</h1>
             <form onSubmit={FromCheck} >
                 <div className="email">
-                    <label htmlFor="">Enter Account No</label>
-                    <input type="text" name='account'  placeholder="enter account no " onChange={inputvalue} />
+                    <label htmlFor="">Enter Email Id</label>
+                    <input type="text" name='account'  placeholder="abc12@gmail.com " onChange={inputvalue} />
                 </div>
                
                 <div className="password">
                     <label htmlFor="">Enter Password</label>
-                    <input type="password" name='password'  placeholder="enter password" onChange={inputvalue} />
+                    <input type="password" name='password'  placeholder="******" onChange={inputvalue} />
                 </div>
 
                 <div className="login_option">
