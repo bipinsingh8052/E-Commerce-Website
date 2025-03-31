@@ -4,8 +4,8 @@ const adminController =require("../controller/AdminController")
 
 
 
-route.post("/signup",adminController.LoginPage)
-
+route.post("/signup",adminController.SignUp)
+route.post("/login",adminController.LOginPage)
 
 
 
