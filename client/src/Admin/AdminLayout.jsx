@@ -7,6 +7,7 @@ export default function AdminLayout() {
     <>
         <AdminHeader/>
         <Outlet/>
+        
     </>
     
   )

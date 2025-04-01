@@ -1,4 +1,5 @@
 const AdminModel =require("../model/adminRegistration")
+const ProductModel=require("../model/Product");
 const bcrypt =require("bcryptjs")
 const jwt =require("jsonwebtoken")
 const SignUp =async(req,res)=>{
@@ -86,8 +87,55 @@ const AurthationPage=async(req,res)=>{
     }
 
 }
+
+
+const Add_the_Product_Page=async(req,res)=>{
+    // console.log(req.body)
+    const{
+        firstimgUrl,
+        secondimgUrl,
+        thirdimgUrl,
+        FourImgUrl,
+        fiveImgUrl,
+        name,
+        des,
+        catgury,
+        subcatgu,
+        brandname,
+        premium,
+        price,
+        sellprice,
+        discount,
+        adminid
+      }=req.body;
+
+      try {
+        let data =await ProductModel.create({
+             Productname:name,
+                firstimgUrl:firstimgUrl,
+                secondimgUrl:secondimgUrl,
+                thirdimgUrl:thirdimgUrl,
+                FourImgUrl:FourImgUrl,
+                fiveImgUrl:fiveImgUrl,
+                des:des,
+                catgury:catgury,
+                subcatgu:subcatgu,
+                brandname:brandname,
+                premium:premium,
+                price:price,
+                sellprice:sellprice,
+                discount:discount,
+                adminid:adminid
+        })
+        res.status(201).send("Your Product is Inserted ..!!")
+      } catch (error) {
+        res.status(500).send({msg:"server error"})
+      }
+    
+}
 module.exports={
     SignUp,
     LOginPage,
-    AurthationPage
+    AurthationPage,
+   Add_the_Product_Page
 }

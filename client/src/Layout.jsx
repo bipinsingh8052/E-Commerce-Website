@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import HeaderCus from './pages/HeaderCus';
 
 export default function Layout() {
     let nav=useNavigate();
@@ -8,6 +9,7 @@ export default function Layout() {
     }
   return (
     <div>
+      <HeaderCus/>
       <button onClick={goit}>
         admin
       </button>

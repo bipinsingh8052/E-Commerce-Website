@@ -1,0 +1,80 @@
+const mongoose=require("mongoose");
+const Schema=new mongoose.Schema({
+    Productname:{
+        type:String,
+        require:true
+    },
+    firstimgUrl:{
+        type:String,
+        require:true
+    },
+    secondimgUrl:{
+        type:String,
+        require:true
+    },
+    thirdimgUrl:{
+        type:String,
+        require:true
+    },
+    FourImgUrl:{
+        type:String,
+        require:true
+    },
+    fiveImgUrl:{
+        type:String,
+        require:true
+    },
+    des:{
+        type:String,
+        require:true
+    },
+    catgury:{
+        type:String,
+        require:true
+    },
+    subcatgu:{
+        type:String,
+        require:true
+    },
+    brandname:{
+        type:String,
+        require:true
+    },
+    premium:{
+        type:String,
+        require:true
+    },
+    price:{
+        type:String,
+        require:true
+    },
+    sellprice:{
+        type:String,
+        require:true
+    },
+    discount:{
+        type:String,
+        require:true
+    },
+    adminid:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"AdminRegistration"
+    },
+    addTocart:[
+        {
+            type:mongoose.Schema.Types.ObjectId,
+        ref:"CustmorRegistration"
+        }
+    ],
+    likeyourCart:[
+        {
+            type:mongoose.Schema.Types.ObjectId,
+        ref:"CustmorRegistration"
+        }
+    ]
+
+
+})
+
+
+module.exports=mongoose.model("product",Schema)

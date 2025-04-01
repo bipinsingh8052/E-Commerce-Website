@@ -21,8 +21,10 @@ export default function AdminProtocted(props) {
             
             let response =await axios.post(api,null,{headers: { "tokensid": token }});
             console.log(response.data);
+
+            localStorage.setItem("AdminId",response.data._id);
             name=response.data.name;
-            console.log(name)
+            // console.log(name)
         } catch (error) {
             console.log("error");
             nav("/adminlogin")

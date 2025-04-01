@@ -117,17 +117,126 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .addProduct .addProduct_Section .addProduct_Section_second .cartinfo{
-    position: sticky;
-    top: 5px;
+    position: fixed;
+    top: 30%;
   z-index: 99;
   padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+  /* background-color: #cae8ca; */
+  /* border: 2px solid #4CAF50; */
+  box-shadow: 2px -1px 9px 1px rgb(187, 183, 183);
+  border: 0.5px solid rgb(204, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
 
 }
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started{
+    height: auto;
+    width: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    overflow: hidden;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .img {
+    height: 150px;
+    /* border: 2px solid black; */
+
+}
+
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .img  img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .img  span{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    padding: 8px 12px;
+    /* font-size: ; */
+    font-size: 18px;
+    background-color: rgb(14, 159, 192);
+    color: white;
+   
+    border-top-right-radius: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 80px;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading p{
+    font-size: 18px;
+    text-align: start;
+    color:#8b8ba3;
+    font-weight: 500;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading h1{
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    color: black;
+    font-weight: 500;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading h1 del {
+    font-size: 15px;
+    font-weight: 400;
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading span{
+    /* padding: 10px; */
+    background-color: rgb(115, 200, 213);
+    font-size: 12px;
+    color: rgb(101, 94, 94);
+    padding: 2px 4px;
+    border-radius: 20px;
+    /* display: block; */
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading .reating{
+    display: flex;align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* border: 2px solid black; */
+    /* justify-content: center; */
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading .reating p{
+    padding: 2px 6px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 12px;
+
+    background-color: #038D63;
+    color: white;
+    gap: 5px;
+    /* background-color: rgba(14, 157, 14, 0.664); */
+}
+
+
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo .Card_started .heading .reating span{
+    font-size: 12px;
+    color: rgb(105, 177, 210);
+    background-color: transparent;
+    padding: 0px;
+    /* border: 2px solid black; */
+    margin-bottom: 8px;
+    /* text-align: end; */
+}
+
+
 
 @media screen and (max-width: 768px) {
     .addProduct .addProduct_Section{
@@ -152,6 +261,25 @@
     
         box-shadow: 1px -1px 5px 1px  black;
         border-radius: 10px;
+    }
+    .addProduct .addProduct_Section .addProduct_Section_second{
+        
+        margin-bottom: 20px;
+        
+        
+    }
+    .addProduct .addProduct_Section .addProduct_Section_second .cartinfo{
+        position: sticky;
+        top: 30%;
+      z-index: 99;
+      padding: 5px;
+      /* background-color: #cae8ca; */
+      /* border: 2px solid #4CAF50; */
+      box-shadow: 2px -1px 9px 1px rgb(187, 183, 183);
+      border: 0.5px solid rgb(204, 195, 195);
+      border-radius: 10px;
+      cursor: pointer;
+    
     }
     
    
