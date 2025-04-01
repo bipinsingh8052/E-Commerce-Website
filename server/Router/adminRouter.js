@@ -6,7 +6,7 @@ const adminController =require("../controller/AdminController")
 
 route.post("/signup",adminController.SignUp)
 route.post("/login",adminController.LOginPage)
-
+route.post("/authora",adminController.AurthationPage)
 
 
 module.exports=route

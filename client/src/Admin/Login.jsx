@@ -29,11 +29,10 @@ export default function Login() {
     try {
       let resp=await axios.post(api,sign);
       console.log(resp)
-      toast.success("login is Successfully !!")
-      
-      localStorage.setItem("token",resp.data.token)
+      toast.success(resp.data.msg)
       setloader(false)
-      // nav("/dashboard")
+      localStorage.setItem("token",resp.data.token)
+      nav("/admindas")
     } catch (error) {
       toast.error(error.response.data.msg)
       console.log("error")

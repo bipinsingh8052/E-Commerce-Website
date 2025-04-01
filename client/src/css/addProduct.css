@@ -1,0 +1,263 @@
+.addProduct{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.addProduct .addProduct_Section{
+    height: auto;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
+}
+.addProduct .addProduct_Section .addProduct_section_first{
+    width: 50%;
+    /* border: 2px solid black; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+    box-shadow: 1px -1px 5px 1px  black;
+    border-radius: 10px;
+}
+
+.addProduct .addProduct_Section .addProduct_section_first h1 {
+    padding: 20px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(119, 232, 6, 0.688);
+    
+    font-family: cursive;
+}
+
+.addProduct .addProduct_Section .addProduct_section_first form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.addProduct .addProduct_Section .addProduct_section_first form div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.addProduct .addProduct_Section .addProduct_section_first form div label{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.addProduct .addProduct_Section .addProduct_section_first form div input{
+    height: 30px;
+    outline: none;
+    border: 0.5px solid blueviolet;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+
+
+.addProduct .addProduct_Section .addProduct_section_first form .primer  select{
+    /* border: none; */
+    width: 120px;
+    border: 0.5px solid blueviolet;
+}
+
+.addProduct .addProduct_Section .addProduct_section_first form .defaultimg  input{
+    border: none;
+}
+.addProduct .addProduct_Section .addProduct_section_first form .allimg {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.addProduct .addProduct_Section .addProduct_section_first form .allimg div input{
+    border: none;
+}
+.addProduct .addProduct_Section .addProduct_section_first form .allimg p{
+    font-size: 10px;
+
+}
+.addProduct .addProduct_Section .addProduct_section_first form button{
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: 0.5px solid transparent;
+    font-size: 16px;
+    background-color: rgb(52, 52, 202);
+    color: whitesmoke;
+
+}
+.addProduct .addProduct_Section .addProduct_section_first form button:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 14, 105);
+    /* background-color: aliceblue; */
+}
+
+
+
+.addProduct .addProduct_Section .addProduct_Section_second{
+    width: 40%;
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addProduct .addProduct_Section .addProduct_Section_second .cartinfo{
+    position: sticky;
+    top: 5px;
+  z-index: 99;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+
+}
+
+@media screen and (max-width: 768px) {
+    .addProduct .addProduct_Section{
+        height: auto;
+        width: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .addProduct .addProduct_Section .addProduct_section_first{
+        width: 100%;
+        /* border: 2px solid black; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    
+        box-shadow: 1px -1px 5px 1px  black;
+        border-radius: 10px;
+    }
+    
+   
+}
+@media screen and (max-width: 420px) {
+    .addProduct{
+        padding: 5px;
+    }
+    .addProduct .addProduct_Section{
+        height: auto;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .addProduct .addProduct_Section .addProduct_section_first{
+        width: 100%;
+        /* border: 2px solid black; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    padding: 5px;
+        box-shadow: 1px -1px 5px 1px  black;
+        border-radius: 0px;
+    }
+    
+    .addProduct .addProduct_Section .addProduct_section_first h1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .addProduct .addProduct_Section .addProduct_section_first form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .addProduct .addProduct_Section .addProduct_section_first form div{
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .addProduct .addProduct_Section .addProduct_section_first form div label{
+        font-size: 12px;
+        font-weight: 500;
+    
+    }
+    .addProduct .addProduct_Section .addProduct_section_first form div input{
+        height: 25px;
+        /* width: 1px; */
+        outline: none;
+        border: 0.5px solid blueviolet;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    
+    
+    
+    .addProduct .addProduct_Section .addProduct_section_first form .primer  select{
+        /* border: none; */
+        width: 100px;
+        border: 0.5px solid blueviolet;
+    }
+    
+  
+    .addProduct .addProduct_Section .addProduct_section_first form .allimg p{
+        font-size: 10px;
+    
+    }
+    .addProduct .addProduct_Section .addProduct_section_first form button{
+        padding: 3px 5px;
+        border-radius: 10px;
+        border: 0.5px solid transparent;
+        font-size: 12px;
+        background-color: rgb(52, 52, 202);
+        color: whitesmoke;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

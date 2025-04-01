@@ -1,0 +1,49 @@
+#Logo{
+    height: 50px;
+    width: 50px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 50%;
+  }
+
+  .nav-item {
+    color: white !important;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    background-color: blue !important;
+    color: white !important;
+    border-radius: 5px;
+  }
+
+  .SubHeading{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 204, 204);
+  }
+
+  .SubHeading .sub_para{
+    padding: 20px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .SubHeading .sub_para span{
+    color: blueviolet;
+  }
+
+
+  @media screen and (max-width: 420px) {
+    .SubHeading .sub_para{
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 490;
+      }
+      .SubHeading .sub_para span{
+        color: blueviolet;
+      }
+    
+  }
