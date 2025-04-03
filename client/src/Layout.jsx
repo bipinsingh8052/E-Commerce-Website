@@ -1,7 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import HeaderCus from './pages/HeaderCus';
-import Navbar from './component/Navbar';
+// import Navbar from './component/Navbar';
+import NavbarMain from './component/NavbarMain';
 
 export default function Layout() {
     // let nav=useNavigate();
@@ -10,7 +11,7 @@ export default function Layout() {
     // }
   return (
     <>
-      <Navbar/>
+      <NavbarMain/>
       {/* <HeaderCus/> */}
       {/* <hr /> */}
       {/* <button onClick={goit}>

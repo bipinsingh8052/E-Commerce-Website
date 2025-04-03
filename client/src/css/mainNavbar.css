@@ -3,61 +3,44 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.navbar{
-    height:auto ;
-    width: 100%;
-    position: fixed;
-    top: 0px;
 
-}
-
-.navbar .NavbarUpperSection{
-    height: auto;
-    width: 100%;
-    /* border: 2px solid black; */
-}
-.navbar .NavbarUpperSection .navbar_innerSection{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    background-color: rgb(136, 176, 225);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-
-.navbar .NavbarUpperSection .navbar_innerSection .logo h1 {
-    padding-right: 10px;
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    /* width: 120px; */
-    border: 2.5px solid black;
-    font-size: 27px;
+@media (max-width: 992px) { /* Applies when screen width is below 992px */
+  .search-bar {
+    width: 100%; /* Full width on small screens */
+    margin-top: 10px;
   }
-  .navbar .NavbarUpperSection .navbar_innerSection .logo h1 .fir {
-    font-size: 25px;
-    font-family: cursive;
-    padding-left: 8px;
+}
+.btnSearch{
+  border: none;
+  background-color: rgb(10, 57, 185);
+}
+.btnSearch:hover{
+  border: none;
+  background-color: blue;
+  color: wheat;
+}
+#logoWrite{
+ padding-top: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#logoWrite span{
     background-color: black;
-    color: white;
-    padding-right: 8px;
-  }
-  .navbar .NavbarUpperSection .navbar_innerSection .logo h1 .secon {
-    background-color: black;
-            /* border: 2px solid black; */
-            padding: 2px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Ah929j52MFEgv6CpoA2nmU4dv7BCfMeEyQ&s");
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  .navbar .NavbarUpperSection .navbar_innerSection .AllOption{
-
-  }
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imglogo{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+#navbarheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
