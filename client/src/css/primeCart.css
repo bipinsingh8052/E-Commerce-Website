@@ -1,0 +1,63 @@
+.PrimeCart{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(125, 189, 219);
+}
+.PrimeCart .innerPrimeCarts{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    display: flex;
+    flex-direction: column;  
+    /* border: 2px solid black; */
+    gap: 20px;
+}
+
+
+.PrimeCart .innerPrimeCarts h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.PrimeCart .innerPrimeCarts .all_primeCarts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: scroll;
+    /* margin-left:20px; */
+}
+
+.PrimeCart .innerPrimeCarts .all_primeCarts::-webkit-scrollbar{
+    display: none;
+}
+
+
+.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started{
+    border: 2px solid rgb(60, 177, 10);
+    height: auto;
+    width: 100%;
+}
+
+.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .img img{
+    height: 200px;
+    width: 200px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .PrimeCart .innerPrimeCarts h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

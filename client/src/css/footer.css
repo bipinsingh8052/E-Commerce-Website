@@ -1,0 +1,35 @@
+.footer h5 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer li:hover {
+    color: #0dcaf0; /* Bootstrap info color */
+  }
+  
+  .footer i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer i:hover {
+    color: #0dcaf0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  }
+  

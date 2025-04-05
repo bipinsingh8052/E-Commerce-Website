@@ -6,7 +6,8 @@ import { RiAdminFill } from "react-icons/ri";
 import '../css/mainNavbar.css'
 export default function NavbarMain() {
   return (
-    <Navbar expand="lg" className="bg-dark navbar-dark py-3">
+    <>
+    <Navbar expand="lg" className="bg-dark navbar-dark py-1">
       <Container fluid>
 
         {/* ✅ LOGO (LEFT) */}
@@ -41,14 +42,32 @@ export default function NavbarMain() {
 
           {/* ✅ NAVIGATION LINKS (RIGHT) */}
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="text-light"><FaHeart/></Nav.Link>
-            <Nav.Link href="#about" className="text-light"><IoCartSharp/></Nav.Link>
-            <Nav.Link href="#about" className="text-light"><IoCartSharp/></Nav.Link>
-            <Nav.Link href="#about" className="text-light"> admin<RiAdminFill/></Nav.Link>
+            <Nav.Link href="#home" className="text-light"><p id='iconsbtn2'><FaHeart/><span>0</span></p></Nav.Link>
+            <Nav.Link href="#about" className="text-light"><p id="iconsbtns">< IoCartSharp/><span>0</span></p></Nav.Link>
+            <Nav.Link href="#about" className="text-light"><p id='iconsbtn3'><RiAdminFill/></p></Nav.Link>
           </Nav>
 
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <div className="subNavbar">
+      <div className="options">
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p><p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+      </div>
+    </div>
+    </>
   )
 }

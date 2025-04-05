@@ -44,3 +44,80 @@
   justify-content: center;
   align-items: center;
 }
+
+
+#iconsbtns{
+  font-size: 24px;
+  /* border: 2px solid whitesmoke; */
+}
+#iconsbtns span{
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+  z-index: 99;
+  background-color: red;
+  padding: 2px 6px;
+  border-radius: 50%;
+  /* margin */
+}
+
+#iconsbtn2,#iconsbtn3{
+  font-size: 24px;
+  /* border: 2px solid whitesmoke; */
+}
+#iconsbtn2 span ,#iconsbtn3 span{
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+  z-index: 99;
+  background-color: rgb(98, 255, 0);
+  padding: 2px 6px;
+  border-radius: 50%;
+  color: black;
+  /* margin */
+}
+
+.subNavbar{
+  height: 40px;
+  width: 100%;
+  border: 2px solid rgb(247, 235, 235);
+  
+}
+
+.subNavbar .options{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 5px;
+  /* text-align: start; */
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: scroll;
+  font-weight: 500;
+  font-size: 15px;
+  gap: 20px;
+  /* over */
+}
+
+.subNavbar .options p:hover{
+  cursor: pointer;
+  color: rgb(178, 7, 7);
+}
+.subNavbar .options::-webkit-scrollbar{
+  display: none;
+}
+
+.subNavbar .options{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+@media (max-width: 780px) {
+  .subNavbar .options{
+    
+    font-size: 12px;
+    padding-top: 10px;
+    
+  }
+}
