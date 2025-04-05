@@ -1,4 +1,4 @@
-.PrimeCart{
+.ShopCart{
     height: auto;
     width: 100%;
     display: flex;
@@ -7,7 +7,7 @@
     padding: 5px;
     background-color: rgb(125, 189, 219);
 }
-.PrimeCart .innerPrimeCarts{
+.ShopCart .innerShopCarts{
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
@@ -19,91 +19,93 @@
 }
 
 
-.PrimeCart .innerPrimeCarts h1{
+.ShopCart .innerShopCarts h1{
     font-size: 25px;
     font-weight: 500;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts{
+.ShopCart .innerShopCarts .all_primeCarts{
     width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: start;
+    justify-content: space-around;
     gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     /* margin-left:20px; */
 }
 
-.PrimeCart .innerPrimeCarts .all_primeCarts::-webkit-scrollbar{
-    display: none;
-}
 
 
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started{
-    border: 0.5px solid rgb(146, 160, 139);
-    /* box-shadow: 1px 2px -2px 11px 2px red; */
+
+.ShopCart .innerShopCarts .all_primeCarts .Card_started{
+    border: 0.5px solid rgb(56, 58, 55);
     height: auto;
-    width: 100%;
-    /* overflow: hidden; */
+    width: 280px;
     padding: 1px;
 }
 
 
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started:hover{
+
+
+
+.ShopCart .innerShopCarts .all_primeCarts .Card_started:hover{
     transition: all 1s ease-in-out;
-    cursor: pointer;
-    transform:scale(1.1,1.010);
+    transform: scale(1.010,1.010);
     box-shadow: 1px 2px -2px 2px red;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .img{
+
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .img{
     height: 200px;
-    width: 200px;
+    width: 100%;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .img img{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .img img{
    
     height: 100%;
     width: 100%;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .img span{
-    position: relative;
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .img span{
+    position:relative;
 
     padding: 15px 15px;
-    top: -200px;
+    top: -189px;
+    /* left: 0px; */
     border-bottom-left-radius: 20px;
     border-bottom-left-radius: 50%;
-    left: 155px;
+    left: 232px;
     text-align: center;
     background-color: red;
     color:whitesmoke;
     /* left: -2px; */
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 5px;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading p{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading p{
     font-size: 18px;
     text-align: start;
     color:#8b8ba3;
     font-weight: 500;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading h1{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading h1{
     display: flex;
     font-size: 16px;
     gap: 10px;
     color: black;
     font-weight: 500;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading h1 del {
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading h1 del {
     font-size: 15px;
     font-weight: 400;
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading span{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading span{
     /* padding: 10px; */
     background-color: rgb(115, 200, 213);
     font-size: 12px;
@@ -112,14 +114,14 @@
     border-radius: 20px;
     /* display: block; */
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading .reating{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading .reating{
     display: flex;align-items: center;
     justify-content: center;
     gap: 5px;
     /* border: 2px solid black; */
     /* justify-content: center; */
 }
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading .reating p{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading .reating p{
     padding: 2px 6px ;
     display: flex;
     justify-content: center;
@@ -134,7 +136,7 @@
 }
 
 
-.PrimeCart .innerPrimeCarts .all_primeCarts .Card_started .heading .reating span{
+.ShopCart .innerShopCarts .all_primeCarts .Card_started .heading .reating span{
     font-size: 12px;
     color: rgb(105, 177, 210);
     background-color: transparent;
@@ -147,7 +149,7 @@
 
 
 @media screen and (max-width: 768px) {
-    .PrimeCart .innerPrimeCarts h1{
+    .ShopCart .innerShopCarts h1{
         font-size: 20px;
         font-weight: 500;
     }

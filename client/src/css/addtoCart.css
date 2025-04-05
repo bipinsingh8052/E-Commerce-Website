@@ -1,0 +1,283 @@
+.cart-page {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Left Side */
+  .cart-products {
+    flex: 1;
+    min-width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .product-card {
+    display: flex;
+    gap: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  .product-card img {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .details .original {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
+  }
+  
+  .details .off {
+    color: green;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .counter-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .counter-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .counter-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .counter-input {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+  }
+  
+  .edit {
+    color: purple;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  
+  .remove {
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .seller {
+    font-size: 13px;
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  /* Right Side */
+  .cart-summary {
+    width: 300px;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  .discount {
+    color: green;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .success-msg {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .continue-btn {
+    background: #a00082;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .secure-note {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .cart-page {
+      flex-direction: column;
+    }
+  
+    .cart-summary {
+      width: 100%;
+      position: static;
+    }
+  }
+  
+
+
+  /* this is address section css */
+
+  .allthis{
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(163, 184, 207, 0.39);
+  }
+  .form-wrapper {
+    max-width: 400px;
+    margin: auto;
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-btn {
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .address-heading {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .row input,
+  .row select {
+    flex: 1;
+  }
+  
+  .save-btn {
+    background-color: #9c27b0;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .save-btn:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .form-wrapper {
+        width: 250px;
+    }
+    .allthis{
+        position: fixed;
+        top: 0px;
+        height: 100vh;
+        width: 99%;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(163, 184, 207, 0.39);
+      }
+  }
+  
+  /* this is address section css */

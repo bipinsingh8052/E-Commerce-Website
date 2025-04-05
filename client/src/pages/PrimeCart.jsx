@@ -17,7 +17,7 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
@@ -25,10 +25,7 @@ export default function PrimeCart() {
                         
                     </div>
 
-
-
-
-                    <div className="Card_started">
+                    <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -37,18 +34,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -57,17 +49,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -76,18 +64,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -96,17 +79,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -115,18 +94,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -135,17 +109,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -154,16 +124,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -172,16 +139,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -190,16 +154,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -208,17 +169,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -227,17 +184,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -246,16 +199,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -264,16 +214,13 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
-                    </div>
-
-
-                    <div className="Card_started">
+                    </div> <div className="Card_started" style={{width:"500px"}}>
                         <div className="img">
                             <img src="./logo.png" alt="Upload your img" />
                             <span>
@@ -282,13 +229,479 @@ export default function PrimeCart() {
                         </div>
                         <div className="heading">
                             <p>input.name </p>
-                            <h1>₹ input.sellprice <del>₹input.price</del></h1>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
+                            <span>Free Delivery</span>
+                            <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
+                            
+                        </div>
+                        
+                    </div> <div className="Card_started" style={{width:"500px"}}>
+                        <div className="img">
+                            <img src="./logo.png" alt="Upload your img" />
+                            <span>
+                                <FaHeart/>
+                            </span>
+                        </div>
+                        <div className="heading">
+                            <p>input.name </p>
+                            <h1>₹ input <del>₹input.price</del></h1>
                             <span>Free Delivery</span>
                             <div className='reating'> <p>4.1 <FaStar/></p> <span>788 Reviews</span></div>
                             
                         </div>
                         
                     </div>
+
 
        </div>
        </div>

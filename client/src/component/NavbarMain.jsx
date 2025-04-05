@@ -1,6 +1,7 @@
 import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstrap';
 import { FaHeart } from "react-icons/fa";
 import { IoCartSharp } from "react-icons/io5";
+import { IoMdLogOut } from "react-icons/io";
 import { IoLogInOutline } from "react-icons/io5";
 import { RiAdminFill } from "react-icons/ri";
 import '../css/mainNavbar.css'
@@ -45,6 +46,7 @@ export default function NavbarMain() {
             <Nav.Link href="#home" className="text-light"><p id='iconsbtn2'><FaHeart/><span>0</span></p></Nav.Link>
             <Nav.Link href="#about" className="text-light"><p id="iconsbtns">< IoCartSharp/><span>0</span></p></Nav.Link>
             <Nav.Link href="#about" className="text-light"><p id='iconsbtn3'><RiAdminFill/></p></Nav.Link>
+            <Nav.Link href="#about" className="text-light"><p id='iconsbtn3'>< IoMdLogOut/></p></Nav.Link>
           </Nav>
 
         </Navbar.Collapse>

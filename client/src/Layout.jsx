@@ -5,6 +5,10 @@ import HeaderCus from './pages/HeaderCus';
 import NavbarMain from './component/NavbarMain';
 import Footer from './component/Footer';
 import PrimeCart from './pages/PrimeCart';
+import ShopCarts from './pages/ShopCarts';
+import LikeCart from './pages/LikeCart';
+import AddToCart from './pages/AddToCart';
+import ShowCart from './pages/ShowCart';
 
 export default function Layout() {
     // let nav=useNavigate();
@@ -14,8 +18,13 @@ export default function Layout() {
   return (
     <>
       <NavbarMain/>
-      <HeaderCus/>
+      {/* <HeaderCus/>
       <PrimeCart/>
+      <ShopCarts/> */}
+      {/* <LikeCart/>
+      <AddToCart/> */}
+      {/* <ShopCarts/> */}
+      <ShowCart/>
       {/* <Outlet/> */}
       <Footer/>
     </>
