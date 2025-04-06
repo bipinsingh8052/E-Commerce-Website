@@ -18,14 +18,7 @@ export default function Layout() {
   return (
     <>
       <NavbarMain/>
-      {/* <HeaderCus/>
-      <PrimeCart/>
-      <ShopCarts/> */}
-      {/* <LikeCart/>
-      <AddToCart/> */}
-      {/* <ShopCarts/> */}
-      <ShowCart/>
-      {/* <Outlet/> */}
+      <Outlet/>
       <Footer/>
     </>
   )

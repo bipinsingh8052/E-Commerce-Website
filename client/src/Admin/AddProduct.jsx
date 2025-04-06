@@ -227,9 +227,10 @@ export default function AddProduct() {
                         <input type="file"  required name='defaultmg' onChange={HandleDefaultimg} />
                     </div>
                     <div className="allimg">
-                        <div>
+                        <div className='img-input-wrapper'>
                         <label htmlFor="">Select first img </label>
                         <input type="file"   required name='secondimg' onChange={HandleSecondImg}/>
+                        
                         </div>
                     </div>
                     <div className="allimg">
